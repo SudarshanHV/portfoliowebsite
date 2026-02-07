@@ -22,7 +22,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <p className="hero-greeting">Hello There! You've come searching for ** drumrolls **</p>
+          <p className="hero-greeting">Hello There! You've come searching for *drumrolls*</p>
           <h1 className="hero-name">Sudarshan H V</h1>
           <h2 className="hero-title">Software Developer | SDE-2 at SkyHigh Security</h2>
           <p className="hero-description">
