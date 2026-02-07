@@ -3,6 +3,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* Navigation Bar */}
+      <nav className="navbar">
+        <div className="navbar-container">
+          <a href="#" className="navbar-logo">SHV</a>
+          <div className="navbar-menu">
+            <a href="#about" className="navbar-link">About</a>
+            <a href="#skills" className="navbar-link">Skills</a>
+            <a href="#experience" className="navbar-link">Experience</a>
+            <a href="#projects" className="navbar-link">Projects</a>
+            <a href="#education" className="navbar-link">Education</a>
+            <a href="#contact" className="navbar-link">Contact</a>
+            <a href="/Resume_SudarshanHV.pdf" download className="navbar-btn">Resume</a>
+          </div>
+        </div>
+      </nav>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
