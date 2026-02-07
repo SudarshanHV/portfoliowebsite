@@ -6,7 +6,7 @@ function App() {
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="navbar-container">
-          <a href="#" className="navbar-logo">SHV</a>
+          <a href="/" className="navbar-logo">SHV</a>
           <div className="navbar-menu">
             <a href="#about" className="navbar-link">About</a>
             <a href="#skills" className="navbar-link">Skills</a>
