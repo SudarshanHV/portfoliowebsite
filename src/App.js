@@ -6,13 +6,13 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <p className="hero-greeting">Hi, my name is</p>
+          <p className="hero-greeting">Hello There! You've come searching for ** drumrolls **</p>
           <h1 className="hero-name">Sudarshan H V</h1>
           <h2 className="hero-title">Software Developer | SDE-2 at SkyHigh Security</h2>
           <p className="hero-description">
-            I build scalable software solutions with expertise in systems programming, 
-            infrastructure optimization, and full-stack development. Currently working on 
-            ARM-based processor porting and ZTNA technologies.
+            I build scalable software solutions with expertise in systems programming,
+            infrastructure optimization, and full-stack development. Currently working on
+            ARM-based processor porting and on SkyHigh Client Proxy.
           </p>
           <div className="hero-cta">
             <a href="#contact" className="btn btn-primary">Get In Touch</a>
@@ -28,18 +28,18 @@ function App() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <p>
-            I'm a <span className="highlight">Software Developer (SDE-2)</span> currently working at 
-            SkyHigh Security, where I'm engineering the porting of the Client Proxy to ARM-based processors, 
-            protecting $2 million in ARR.
+            I'm a <span className="highlight">Software Developer (SDE-2)</span> currently working at
+            SkyHigh Security, where I'm engineering the porting of the Client Proxy to ARM-based processors,
+            potentially leading to $2 million in ARR.
           </p>
           <p>
-            Previously at MathWorks, I improved coverage collection time by <span className="highlight">50%</span> using 
-            worker thread pools in Golang and multithreading in C++, while reducing infrastructure failures by 
+            Previously at MathWorks, I improved coverage collection time by <span className="highlight">50%</span> using
+            worker thread pools in Golang and multithreading in C++, while reducing infrastructure failures by
             <span className="highlight"> 20%</span> through the application of design patterns.
           </p>
           <p>
-            I graduated from <span className="highlight">IIT Tirupati</span> in 2022 with a B.Tech in Electrical 
-            Engineering, achieving a 9.07 CGPA. Beyond coding, I was the Head of the IIT Tirupati Debate Club, 
+            I graduated from <span className="highlight">IIT Tirupati</span> in 2022 with a B.Tech in Electrical
+            Engineering, achieving a 9.07 CGPA. Beyond coding, I was the Head of the IIT Tirupati Debate Club,
             leading the team to victories against international universities.
           </p>
         </div>
@@ -59,7 +59,7 @@ function App() {
               <span className="skill-tag">MATLAB</span>
             </div>
           </div>
-          
+
           <div className="skill-category">
             <h3 className="skill-category-title">Systems & Infrastructure</h3>
             <div className="skill-tags">
@@ -71,7 +71,7 @@ function App() {
               <span className="skill-tag">gRPC</span>
             </div>
           </div>
-          
+
           <div className="skill-category">
             <h3 className="skill-category-title">DevOps & Tools</h3>
             <div className="skill-tags">
@@ -83,7 +83,7 @@ function App() {
               <span className="skill-tag">Maven</span>
             </div>
           </div>
-          
+
           <div className="skill-category">
             <h3 className="skill-category-title">Methodologies</h3>
             <div className="skill-tags">
@@ -136,7 +136,7 @@ function App() {
             </div>
             <ul className="experience-description">
               <li>
-                Engineering the porting of SkyHigh Client Proxy to ARM-based processors, ensuring 
+                Engineering the porting of SkyHigh Client Proxy to ARM-based processors, ensuring
                 continued product compatibility and protecting 2 million USD in ARR
               </li>
             </ul>
@@ -158,22 +158,22 @@ function App() {
             </div>
             <ul className="experience-description">
               <li>
-                Improved coverage collection time by 50% using a worker thread pool (Golang) and 
+                Improved coverage collection time by 50% using a worker thread pool (Golang) and
                 multithreading (C++)
               </li>
               <li>
-                Applied design patterns (Singleton, Factory, Observer) to enhance coverage workflows, 
+                Applied design patterns (Singleton, Factory, Observer) to enhance coverage workflows,
                 reducing infrastructure failures by 20%
               </li>
               <li>
                 Led Agile collaboration across US and UK teams to align goals and timelines
               </li>
               <li>
-                Onboarded 30+ hardware devices (Bluetooth, BLE, STM32, TIC2000) across 10 teams into 
+                Onboarded 30+ hardware devices (Bluetooth, BLE, STM32, TIC2000) across 10 teams into
                 scheduling infrastructure, boosting test scalability
               </li>
               <li>
-                Leveraged Java collections, C++ STL classes, and templates to enable multiport operations 
+                Leveraged Java collections, C++ STL classes, and templates to enable multiport operations
                 in Windows and Linux environments, improving port usage efficiency by 30%
               </li>
             </ul>
@@ -196,19 +196,19 @@ function App() {
             </div>
             <ul className="experience-description">
               <li>
-                Developed automatic leasing mechanism for USB, Ethernet, and Bluetooth hardware over 
+                Developed automatic leasing mechanism for USB, Ethernet, and Bluetooth hardware over
                 network for 15+ teams using USB-over-TCP/IP technologies
               </li>
               <li>
-                Spearheaded complete SDLC for network hardware resource leasing, reducing dropped tests 
+                Spearheaded complete SDLC for network hardware resource leasing, reducing dropped tests
                 by 30% for 15 hardware teams
               </li>
               <li>
-                Architected gRPC-based Perl to Golang solution to move 20% of test selection code and 
+                Architected gRPC-based Perl to Golang solution to move 20% of test selection code and
                 improve API communication times by 50%
               </li>
               <li>
-                Engineered automated test selection processes across 200,000+ tests, reducing testing 
+                Engineered automated test selection processes across 200,000+ tests, reducing testing
                 times by 25%
               </li>
             </ul>
@@ -230,18 +230,18 @@ function App() {
             </div>
             <ul className="experience-description">
               <li>
-                Eliminated 800 compiler warnings and refactored Simulink Mask C++ codebase using OOD 
+                Eliminated 800 compiler warnings and refactored Simulink Mask C++ codebase using OOD
                 and SOLID principles based on C++11+ standards
               </li>
               <li>
-                Resolved complex technical inquiries from 5+ clients monthly regarding MathWorks products, 
+                Resolved complex technical inquiries from 5+ clients monthly regarding MathWorks products,
                 achieving a 5-star satisfaction rating
               </li>
               <li>
                 Containerized a MEAN application with 3000+ active users, standardizing DevOps workflows
               </li>
               <li>
-                Developed SonarQube and GitHub Actions pipeline to capture C++ coverage with 75% threshold 
+                Developed SonarQube and GitHub Actions pipeline to capture C++ coverage with 75% threshold
                 for line coverage
               </li>
             </ul>
@@ -256,7 +256,7 @@ function App() {
           <div className="project-card">
             <h3 className="project-title">IRS Assisted Interference Management for 6G Networks</h3>
             <p className="project-description">
-              Designed 3-channel models for distributed IRS systems with potential for interference cancellation. 
+              Designed 3-channel models for distributed IRS systems with potential for interference cancellation.
               Analyzed models for 2-user Gaussian interference channel in 6G wireless networks.
             </p>
             <div className="experience-skills">
@@ -269,7 +269,7 @@ function App() {
           <div className="project-card">
             <h3 className="project-title">gRPC-based Microservices Migration</h3>
             <p className="project-description">
-              Architected and implemented a gRPC-based solution to migrate 20% of test selection code from Perl 
+              Architected and implemented a gRPC-based solution to migrate 20% of test selection code from Perl
               to Golang, improving API communication times by 50% and enhancing system scalability.
             </p>
             <div className="experience-skills">
@@ -283,7 +283,7 @@ function App() {
           <div className="project-card">
             <h3 className="project-title">Hardware Resource Leasing Infrastructure</h3>
             <p className="project-description">
-              Developed end-to-end automatic leasing mechanism for network hardware resources (USB, Ethernet, 
+              Developed end-to-end automatic leasing mechanism for network hardware resources (USB, Ethernet,
               Bluetooth) using VirtualHere and myUTN, serving 15+ teams and reducing dropped tests by 30%.
             </p>
             <div className="experience-skills">
@@ -303,11 +303,11 @@ function App() {
           <h3 className="education-degree">B.Tech in Electrical Engineering</h3>
           <p className="education-school">IIT (Indian Institute of Technology) Tirupati</p>
           <p className="education-details">Graduated in 2022 • CGPA: 9.07/10.0</p>
-          
+
           <div className="education-courses">
             <h4>Relevant Coursework:</h4>
             <p className="courses-list">
-              Data Structures & Algorithms, Computer Networking, Operating Systems, 
+              Data Structures & Algorithms, Computer Networking, Operating Systems,
               Machine Learning (Stanford Online)
             </p>
           </div>
@@ -315,7 +315,7 @@ function App() {
           <div className="education-courses">
             <h4>Leadership:</h4>
             <p className="courses-list">
-              Head of IIT Tirupati Debate Club • Led the team to victories against international 
+              Head of IIT Tirupati Debate Club • Led the team to victories against international
               universities and other IITs
             </p>
           </div>
@@ -327,28 +327,28 @@ function App() {
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-content">
           <p className="contact-description">
-            I'm currently open to new opportunities and interesting projects. Whether you have a 
+            I'm currently open to new opportunities and interesting projects. Whether you have a
             question or just want to say hi, feel free to reach out!
           </p>
           <div className="contact-links">
-            <a 
-              href="mailto:sudarshanhv99@gmail.com" 
+            <a
+              href="mailto:sudarshanhv99@gmail.com"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
               📧 Email
             </a>
-            <a 
-              href="https://linkedin.com/in/sudarshanhv" 
+            <a
+              href="https://linkedin.com/in/sudarshanhv"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
               💼 LinkedIn
             </a>
-            <a 
-              href="https://github.com/SudarshanHV" 
+            <a
+              href="https://github.com/SudarshanHV"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
