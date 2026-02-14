@@ -316,24 +316,37 @@ function App() {
       <section className="education section" id="education">
         <h2 className="section-title">Education</h2>
         <div className="education-card">
-          <h3 className="education-degree">B.Tech in Electrical Engineering</h3>
-          <p className="education-school">IIT (Indian Institute of Technology) Tirupati</p>
-          <p className="education-details">Graduated in 2022 • CGPA: 9.07/10.0</p>
-
-          <div className="education-courses">
-            <h4>Relevant Coursework:</h4>
-            <p className="courses-list">
-              Data Structures & Algorithms, Computer Networking, Operating Systems,
-              Machine Learning (Stanford Online)
-            </p>
+          <div className="education-image-container">
+            <img
+              src="/college-image.png"
+              alt="IIT Tirupati Campus"
+              className="education-image"
+            />
           </div>
-
-          <div className="education-courses">
-            <h4>Leadership:</h4>
-            <p className="courses-list">
-              Head of IIT Tirupati Debate Club • Led the team to victories against international
-              universities and other IITs
+          <div className="education-content">
+            <h3 className="education-degree">B.Tech in Electrical Engineering</h3>
+            <p className="education-school">IIT (Indian Institute of Technology) Tirupati</p>
+            <p className="education-details">Graduated in 2022 • CGPA: 9.07/10.0</p>
+            <p className="education-description">
+              Specialized in electrical engineering with a focus on signal processing and wireless communications.
+              Completed research on IRS-assisted interference management for next-generation 6G networks.
             </p>
+
+            <div className="education-courses">
+              <h4>Relevant Coursework:</h4>
+              <p className="courses-list">
+                Data Structures & Algorithms, Computer Networking, Operating Systems,
+                Machine Learning (Stanford Online)
+              </p>
+            </div>
+
+            <div className="education-courses">
+              <h4>Leadership:</h4>
+              <p className="courses-list">
+                Head of IIT Tirupati Debate Club • Led the team to victories against international
+                universities and other IITs
+              </p>
+            </div>
           </div>
         </div>
       </section>
